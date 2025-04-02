@@ -2,7 +2,7 @@
 
 [madsim](https://github.com/madsim-rs/madsim)-inspired determinism for [turmoil](https://github.com/tokio-rs/turmoil)-based simulation tests
 
-See [blog post](https://s2.dev/blog)
+See [blog post](https://s2.dev/blog/dst)
 
 ## Setup
 
