@@ -6,6 +6,8 @@ See [blog post](https://s2.dev/blog)
 
 ## Setup
 
+Make sure you are only depending on this crate for simulation binaries!
+
 ```rust
 fn main() -> eyre::Result<()> {
     let rng_seed = std::env::var("DST_SEED")?.parse()?;
