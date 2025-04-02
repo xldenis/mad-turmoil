@@ -1,0 +1,10 @@
+[package]
+name = "mad-turmoil"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libc = "0.2"
+rand = "0.9"
+tokio = "1"
+turmoil = "0.6"
