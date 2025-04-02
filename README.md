@@ -11,6 +11,7 @@ fn main() -> eyre::Result<()> {
     let rng_seed = std::env::var("DST_SEED")?.parse()?;
 
     // Taming randomness...
+
     let mut rng = StdRng::seed_from_u64(rng_seed);
     mad_turmoil::rand::set_rng(rng.clone());
     assert_eq!(rng.next_u64(), mad_turmoil::rand::get_rng().next_u64());
