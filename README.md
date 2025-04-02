@@ -1,6 +1,6 @@
 # mad-turmoil
 
-madsim-inspired determinism for turmoil-based simulation tests
+[madsim](https://github.com/madsim-rs/madsim)-inspired determinism for [turmoil](https://github.com/tokio-rs/turmoil)-based simulation tests
 
 See [blog post](https://s2.dev/blog)
 
